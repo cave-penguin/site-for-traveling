@@ -1,0 +1,49 @@
+.main_form {
+    width: 100%;
+    margin-top: 40px;
+    height: 250px;
+    border: 1px solid gray;
+    border-radius: 30px;
+}
+
+.input_form {
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+}
+.input {
+    width: 70%;
+}
+
+/* @media (min-width: 62rem) .main_form {
+    max-width: 75rem;
+    webkit-flex-grow: 0;
+    flex-grow: 0;
+    webkit-align-content: flex-start;
+    align-content: flex-start;
+}
+
+@media (min-width: 36rem) .SimpleContainer {
+    /* max-width: 61.938rem; 
+    rem: ;
+}
+
+.SimpleContainer {
+    width: 100%;
+    max-width: 40.625rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 36rem) .uitk-spacing-padding-medium-inline-six {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+
+@media screen and (min-width: 36rem) .uitk-spacing-padding-medium-blockstart-twelve {
+    padding-top: 3rem;
+}
+
+@media screen and (min-width: 62rem) .uitk-layout-grid-columns-large-12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+} */
