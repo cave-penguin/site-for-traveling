@@ -7,13 +7,15 @@
 }
 
 .main_word {
-    margin-left: 80px;
     border: medium none;
     background-image: none;
     background: transparent;
 }
 
 .a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-decoration: none;
     font-size: 30px;
     font-weight: bold;
@@ -24,7 +26,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 80px;
+    /* margin-right: 80px; */
 }
 .little_words {
     margin-left: 25px;

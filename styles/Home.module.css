@@ -1,4 +1,23 @@
-.container {
-    margin-left: 15%;
-    margin-right: 15%;
+.container_main {
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 0 15px;
+}
+
+@media (max-width: 1200px) {
+    .container_main {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 992px) {
+    .container_main {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px) {
+    .container_main {
+        max-width: none;
+    }
 }

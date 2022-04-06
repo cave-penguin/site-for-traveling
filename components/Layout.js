@@ -13,11 +13,11 @@ export default function Layout({ children }) {
             </Head>
             <header className={s.header}>
                 <div className={s.button_block}>
-                    <button className={s.main_word}>
-                        <Link href="./">
-                            <a className={s.a}>Название</a>
-                        </Link>
-                    </button>
+                    {/* <button> */}
+                    <Link className={s.main_word} href="/">
+                        <a className={s.a}>Название</a>
+                    </Link>
+                    {/* </button> */}
                     <div className={s.little_words_block}>
                         <button className={s.little_words}>Язык</button>
                         <button className={s.little_words}>Войти</button>
